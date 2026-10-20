@@ -24,4 +24,11 @@ O projeto simula a comunicação de diagnóstico automotivo entre uma ECU (Centr
 ### Passo 1: Iniciar a ECU (Servidor)
 No terminal da máquina que atuará como ECU (ou no Terminal 1):
 ```bash
+
+---
+
+### Passo 2: Iniciar o Scanner (Cliente)
+No terminal da máquina que atuará como Scanner (ou no Terminal 2):
+
+Nota: Caso esteja executando em computadores diferentes, certifique-se de atualizar a variável IP_SERVIDOR no arquivo scanner_cliente.py com o IP local correto da máquina Servidor.
 python ecu_servidor.py
