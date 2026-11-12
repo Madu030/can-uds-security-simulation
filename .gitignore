@@ -1,0 +1,13 @@
+# Artefatos sensíveis ou transitórios (recriados automaticamente)
+chave_secreta.key
+ids_modelo.pkl
+alertas_ids.csv
+run*.log
+nohup.out
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/

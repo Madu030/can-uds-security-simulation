@@ -1,0 +1,246 @@
+{
+  "ids": {
+    "Só regras": {
+      "Força bruta (rápida)": {
+        "taxa_deteccao": 0.0,
+        "req_ate_deteccao_mediana": null,
+        "seg_ate_deteccao_mediana": null,
+        "tpr_por_evento": 0.0
+      },
+      "Força bruta (lenta/evasiva)": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 25.0,
+        "seg_ate_deteccao_mediana": 68.73,
+        "tpr_por_evento": 0.8863
+      },
+      "Varredura de serviços": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 10.0,
+        "seg_ate_deteccao_mediana": 0.18,
+        "tpr_por_evento": 0.9648
+      },
+      "Varredura de DIDs": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 10.0,
+        "seg_ate_deteccao_mediana": 0.18,
+        "tpr_por_evento": 0.97
+      },
+      "Tokens forjados (sem chave)": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 3.0,
+        "seg_ate_deteccao_mediana": 0.2,
+        "tpr_por_evento": 0.95
+      },
+      "Exfiltração furtiva (dia-zero)": {
+        "taxa_deteccao": 0.0,
+        "req_ate_deteccao_mediana": null,
+        "seg_ate_deteccao_mediana": null,
+        "tpr_por_evento": 0.0
+      },
+      "Fuzzing IA (agressivo)": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 10.0,
+        "seg_ate_deteccao_mediana": 0.09,
+        "tpr_por_evento": 0.982
+      },
+      "Fuzzing mutação (1 req/s)": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 75.0,
+        "seg_ate_deteccao_mediana": 74.0,
+        "tpr_por_evento": 0.5361
+      },
+      "_falsos_positivos": {
+        "fpr_por_evento": 0.0,
+        "frac_clientes_legitimos_com_alerta": 0.0,
+        "eventos_legitimos_avaliados": 35400
+      }
+    },
+    "Só ML": {
+      "Força bruta (rápida)": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 7.0,
+        "seg_ate_deteccao_mediana": 0.3,
+        "tpr_por_evento": 0.9706
+      },
+      "Força bruta (lenta/evasiva)": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 7.0,
+        "seg_ate_deteccao_mediana": 15.99,
+        "tpr_por_evento": 0.9716
+      },
+      "Varredura de serviços": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 7.0,
+        "seg_ate_deteccao_mediana": 0.12,
+        "tpr_por_evento": 0.9766
+      },
+      "Varredura de DIDs": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 7.0,
+        "seg_ate_deteccao_mediana": 0.12,
+        "tpr_por_evento": 0.98
+      },
+      "Tokens forjados (sem chave)": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 7.0,
+        "seg_ate_deteccao_mediana": 0.6,
+        "tpr_por_evento": 0.85
+      },
+      "Exfiltração furtiva (dia-zero)": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 7.0,
+        "seg_ate_deteccao_mediana": 9.18,
+        "tpr_por_evento": 0.9512
+      },
+      "Fuzzing IA (agressivo)": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 7.0,
+        "seg_ate_deteccao_mediana": 0.06,
+        "tpr_por_evento": 0.988
+      },
+      "Fuzzing mutação (1 req/s)": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 7.0,
+        "seg_ate_deteccao_mediana": 6.0,
+        "tpr_por_evento": 0.98
+      },
+      "_falsos_positivos": {
+        "fpr_por_evento": 0.0185,
+        "frac_clientes_legitimos_com_alerta": 0.2639,
+        "eventos_legitimos_avaliados": 35400
+      }
+    },
+    "Híbrido": {
+      "Força bruta (rápida)": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 7.0,
+        "seg_ate_deteccao_mediana": 0.3,
+        "tpr_por_evento": 0.9706
+      },
+      "Força bruta (lenta/evasiva)": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 7.0,
+        "seg_ate_deteccao_mediana": 15.99,
+        "tpr_por_evento": 0.9716
+      },
+      "Varredura de serviços": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 7.0,
+        "seg_ate_deteccao_mediana": 0.12,
+        "tpr_por_evento": 0.9766
+      },
+      "Varredura de DIDs": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 7.0,
+        "seg_ate_deteccao_mediana": 0.12,
+        "tpr_por_evento": 0.98
+      },
+      "Tokens forjados (sem chave)": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 3.0,
+        "seg_ate_deteccao_mediana": 0.2,
+        "tpr_por_evento": 0.95
+      },
+      "Exfiltração furtiva (dia-zero)": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 7.0,
+        "seg_ate_deteccao_mediana": 9.18,
+        "tpr_por_evento": 0.9512
+      },
+      "Fuzzing IA (agressivo)": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 7.0,
+        "seg_ate_deteccao_mediana": 0.06,
+        "tpr_por_evento": 0.988
+      },
+      "Fuzzing mutação (1 req/s)": {
+        "taxa_deteccao": 1.0,
+        "req_ate_deteccao_mediana": 7.0,
+        "seg_ate_deteccao_mediana": 6.0,
+        "tpr_por_evento": 0.9803
+      },
+      "_falsos_positivos": {
+        "fpr_por_evento": 0.0185,
+        "frac_clientes_legitimos_com_alerta": 0.2639,
+        "eventos_legitimos_avaliados": 35400
+      }
+    }
+  },
+  "fuzzer": {
+    "aleatorio": {
+      "linhas_cobertas_final_media": 62.5,
+      "BUG-1": {
+        "encontrado_em": "0/8",
+        "testes_ate_encontrar_mediana": null
+      },
+      "BUG-2": {
+        "encontrado_em": "8/8",
+        "testes_ate_encontrar_mediana": 602
+      },
+      "BUG-3": {
+        "encontrado_em": "0/8",
+        "testes_ate_encontrar_mediana": null
+      }
+    },
+    "mutacao": {
+      "linhas_cobertas_final_media": 112.6,
+      "BUG-1": {
+        "encontrado_em": "8/8",
+        "testes_ate_encontrar_mediana": 53
+      },
+      "BUG-2": {
+        "encontrado_em": "8/8",
+        "testes_ate_encontrar_mediana": 169
+      },
+      "BUG-3": {
+        "encontrado_em": "0/8",
+        "testes_ate_encontrar_mediana": null
+      }
+    },
+    "ia": {
+      "linhas_cobertas_final_media": 111.5,
+      "BUG-1": {
+        "encontrado_em": "8/8",
+        "testes_ate_encontrar_mediana": 448
+      },
+      "BUG-2": {
+        "encontrado_em": "8/8",
+        "testes_ate_encontrar_mediana": 271
+      },
+      "BUG-3": {
+        "encontrado_em": "6/8",
+        "testes_ate_encontrar_mediana": 12704
+      }
+    }
+  },
+  "evasao": {
+    "Só regras vs fuzzer agressivo": {
+      "testes_entregues_media": 300,
+      "minutos_simulados_media": 18.3,
+      "testes_por_minuto": 16.44,
+      "alertas_media": 16.8,
+      "bugs_distintos_media": 0.7
+    },
+    "Só regras vs fuzzer evasivo": {
+      "testes_entregues_media": 300,
+      "minutos_simulados_media": 1.9,
+      "testes_por_minuto": 157.86,
+      "alertas_media": 1.2,
+      "bugs_distintos_media": 0.6
+    },
+    "Híbrido vs fuzzer agressivo": {
+      "testes_entregues_media": 55.8,
+      "minutos_simulados_media": 359.7,
+      "testes_por_minuto": 0.16,
+      "alertas_media": 333,
+      "bugs_distintos_media": 0.2
+    },
+    "Híbrido vs fuzzer evasivo": {
+      "testes_entregues_media": 37.8,
+      "minutos_simulados_media": 359.7,
+      "testes_por_minuto": 0.11,
+      "alertas_media": 196,
+      "bugs_distintos_media": 0.1
+    }
+  }
+}
