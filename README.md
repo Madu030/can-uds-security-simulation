@@ -1,3 +1,8 @@
+## Artigo científico
+
+O artigo completo deste projeto está disponível em:
+(https://docs.google.com/document/d/16vbgCa-OnJbbGAQP6PJKmqucJkxPfO-PTWZb8clTsrg/edit?usp=sharing)
+
 # Simulação de Cibersegurança Automotiva — UDS 0x27 + E2EE + IA (IDS e Fuzzer)
 
 Simulação acadêmica e reprodutível de segurança em redes automotivas sobre o
